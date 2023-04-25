@@ -1,0 +1,627 @@
+/*
+	color:
+		bg - 0e1a35
+		blueText - 5584ff
+		greenText - 22c839
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+
+.container{
+	max-width: 1600px;
+	margin: 0 auto;
+}
+h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 100;
+}
+h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 500;
+}
+h3{
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+}
+h4{
+	color: #000;
+	font-size: 18px;
+	font-weight: 700;
+}
+.text1, .text2. .text3, .text4{
+	font-weight: 400;
+}
+.text1{
+	color: rgba(255, 255, 255, .5);
+	font-size: 36px;
+}
+.text2{
+	color: rgba(255, 255, 255, .5);
+	font-size: 24px;
+}
+.text3{
+	color: #5584ff;
+	font-size: 22px;
+}
+.text4{
+	color: rgba(255, 255, 255, .5);
+	font-size: 18px;
+}
+.button{
+	text-decoration: none;
+	border: 2px solid #5584ff;
+	border-radius: 50px;
+	padding: 15px 50px;
+	font-size: 18px;
+}
+
+header{
+	background-color: #0e1a35;
+	padding-top: 50px;
+	margin-bottom: 350px;
+}
+img.bgAbsImg{
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+header nav, header .growYour{
+	position: relative;
+}
+header .container img.bgAbsImg:nth-child(1){
+	top: -5%;
+}
+header .container img.bgAbsImg:nth-child(2){
+	top: 20%;
+}
+header .container img.bgAbsImg:nth-child(3){
+	width: auto;
+	top: 60%;
+	box-shadow: 0 0 100px -25px #5584ff;
+}
+header nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+header nav ul{
+	display: flex;
+}
+header nav ul li{
+	list-style: none;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	margin-left: 50px;
+	transition: .25s;
+}
+header nav ul li a:hover{
+	color: #5584ff;
+}
+header nav ul li:last-child a{
+	text-decoration: none;
+	color: #5584ff;
+}
+header nav ul li:last-child a:hover{
+	color: #fff;
+	background-color: #5584ff;
+}
+header .growYour{
+	text-align: center;
+	padding: 150px 0 500px 0;
+	position: relative;
+}
+header .growYour h1{
+	text-align: center;
+	margin-bottom: 25px;
+}
+header .growYour p{
+	text-align: center;
+	margin-bottom: 100px;
+}
+header .growYour a{
+	color: #fff;
+	display: inline-block;
+	background-color: #5584ff;
+	transition: .25s;
+}
+header .growYour a:hover{
+	color: #5584ff;
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: 0 0 50px -5px #5584ff;
+}
+
+main{
+	position: relative;
+}
+main .manageAnalyticsOrganize{
+	margin-bottom: 100px;
+}
+main .manageAnalyticsOrganize .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 200px;
+	position: relative;
+}
+main .manageAnalyticsOrganize .block{
+	width: 25%;
+	text-align: center;
+}
+main .manageAnalyticsOrganize .block img{
+	margin-bottom: 50px;
+}
+main .manageAnalyticsOrganize .block h3{
+	margin-bottom: 25px;
+}
+main .manageAnalyticsOrganize .block p{
+	margin-bottom: 55px;
+	color: rgba(0, 0, 0, .5);
+}
+main .manageAnalyticsOrganize .block a{
+	font-weight: 600;
+	color: #000;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, .2);
+	transition: .25s;
+}
+main .manageAnalyticsOrganize .block a:hover{
+	color: #ffff;
+	background-color: #5584ff;
+	border-color: #5584ff;
+}
+main .manageAnalyticsOrganize .block .button{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+main .manageAnalyticsOrganize hr{
+	width: 15%;
+	height: 2px;
+	background-color: rgba(0, 0, 0, .25);
+	border: 0;
+	position: absolute;
+	top: 1%;
+}
+main .manageAnalyticsOrganize hr:nth-child(1){
+	left: 27.5%;
+}
+main .manageAnalyticsOrganize hr:nth-child(2){
+	left: 57.5%;
+}
+main .allYouNeed{
+	background: linear-gradient(to top, rgba(0, 0, 0, .025), 95%, rgba(0, 0, 0, 0));
+	position: relative;
+	overflow: hidden;
+}
+main .allYouNeed img{
+	position: absolute;
+	top: 55%;
+	right: -20%;
+	transform: translateY(-50%);
+}
+main .allYouNeed .container{
+	padding: 200px 100px;
+	box-sizing: border-box;
+}
+main .allYouNeed .container .block{
+	width: 50%;
+}
+main .allYouNeed .container h1{
+	color: #000;
+	margin-bottom: 50px;
+}
+main .allYouNeed .container p{
+	line-height: 1.5;
+	margin-bottom: 40px;
+	color: rgba(0, 0, 0, .5);
+}
+main .allYouNeed .container p:nth-child(3){
+	margin-bottom: 50px;
+}
+main .allYouNeed .container ul li{
+	list-style: none;
+	padding-left: 50px;
+	position: relative;
+}
+main .allYouNeed .container ul li:last-child p{
+	margin-bottom: 0;
+}
+main .allYouNeed .container ul li img{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
+}
+main .dragDrop{
+	background-color: #0e1a35;
+	padding: 150px 0 200px 0;
+	position: relative;
+	overflow: hidden;
+}
+main .dragDrop .container{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 1;
+}
+main .dragDrop .left,
+main .dragDrop .right{
+	width: 49%;
+}
+main .dragDrop .right{
+	padding: 65px 100px 0 100px;
+	box-sizing: border-box;
+}
+main .dragDrop .left{
+	display: flex;
+	justify-content: space-between;
+}
+main .dragDrop .left .left2,
+main .dragDrop .left .right2{
+	width: 47%;
+	display: flex;
+	flex-direction: column;
+}
+main .dragDrop .left .left2 .titleBlock,
+main .dragDrop .left .right2 .titleBlock{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+main .dragDrop .left .left2 .titleBlock span,
+main .dragDrop .left .right2 .titleBlock span{
+	margin-left: 25px;
+	color: rgba(255, 255, 255, .75);
+}
+main .dragDrop .left .left2 .titleBlock img{
+	max-height: 100%;
+	max-width: 100%;
+}
+main .dragDrop .left .left2 .block,
+main .dragDrop .left .right2 .block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff;
+	padding: 25px;
+	margin-bottom: 15px;
+}
+main .dragDrop .left .left2 .block:last-child{
+	position: relative;
+}
+main .dragDrop .left .left2 .block img.cursor{
+	position: absolute;
+	bottom: -52%;
+	right: -10%;
+	padding: 25px 30px;
+	background: radial-gradient(circle, rgba(144, 167, 217, .25) 0 55%, rgba(144, 167, 217, .1) 55% 100%);
+	border-radius: 50%;
+}
+main .dragDrop .left .right2 .emptyBlock{
+	padding: 40px;
+	border: 2px dashed rgba(255, 255, 255, .5);
+}
+main .dragDrop .left .right2 .emptyBlock p{
+	text-align: center;
+	color: rgba(255, 255, 255, .5);
+	font-size: 18px;
+}
+main .dragDrop .left .left2 .block .left3,
+main .dragDrop .left .right2 .block .left3{
+	display: flex;
+	align-items: center;
+}
+main .dragDrop .left .left2 .block .left3 .left4 p.circleLetter,
+main .dragDrop .left .right2 .block .left3 .left4 p.circleLetter{
+	font-size: 24px;
+	color: #fff;
+	background-color: #5584ff;
+	border-radius: 50%;
+	padding: 10px 16px;
+	margin-right: 25px;
+}
+main .dragDrop .left .right2 .block:nth-child(3) .left3 .left4 p.circleLetter{
+	padding: 10px 19px;
+}
+main .dragDrop .left .left2 .block .left3 .right4 h4,
+main .dragDrop .left .right2 .block .left3 .right4 h4{
+	margin-bottom: 5px;
+}
+main .dragDrop .left .left2 .block .left3 .right4 .block2,
+main .dragDrop .left .right2 .block .left3 .right4 .block2{
+	display: flex;
+	align-items: center;
+}
+main .dragDrop .left .left2 .block .left3 .right4 img,
+main .dragDrop .left .right2 .block .left3 .right4 img{
+	width: 14px;
+	margin-right: 5px;
+}
+main .dragDrop .left .left2 .block .left3 .right4 p.underText,
+main .dragDrop .left .right2 .block .left3 .right4 p.underText{
+	font-size: 14px;
+	color: grey;
+}
+main .dragDrop .left .right2 .block .left3 .right4 p.underText{
+	color: #22c839;
+}
+main .dragDrop .left .left2 .block .right3 .dot,
+main .dragDrop .left .right2 .block .right3 .dot{
+	width: 8px;
+	height: 8px;
+	background-color: grey;
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+main .dragDrop .left .left2 .block .right3 .dot:last-child{
+	margin-bottom: 0;
+}
+main .dragDrop .left .left2 .block:nth-child(4){
+	margin-bottom: 0;
+	position: relative;
+	top: 25px;
+	left: 25px;
+}
+main .dragDrop .left .left2 .block:nth-child(4) .left3 .right4 p.underText{
+	color: red;
+}
+main .dragDrop .bgAbsImg{
+	z-index: 0;
+}
+main .dragDrop .bgAbsImg:nth-child(1){
+	top: 0;
+}
+main .dragDrop .bgAbsImg:nth-child(2){
+	top: 25%;
+}
+main .dragDrop .right h1{
+	margin-bottom: 50px;
+}
+main .dragDrop .right p{
+	margin-bottom: 40px;
+}
+main .dragDrop .right p:nth-child(3){
+	margin-bottom: 60px;
+}
+main .dragDrop .right img:nth-child(1){
+	margin-right: 15px;
+	transform: rotate(180deg);
+}
+main .powerfullPSD{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .025), 95%, rgba(0, 0, 0, 0));
+	text-align: center;
+	padding: 100px 0;
+	margin-bottom: 50px;
+}
+main .powerfullPSD .container{
+	position: relative;
+}
+main .powerfullPSD h1,
+main .powerfullPSD p.one{
+	max-width: 60%;
+	margin: 0 auto;
+}
+main .powerfullPSD h1{
+	color: #000;
+	margin-bottom: 50px;
+}
+main .powerfullPSD p.one{
+	color: grey;
+	line-height: 1.5;
+	margin-bottom: 100px;
+}
+main .powerfullPSD .block,
+main .powerfullPSD .block2{
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+main .powerfullPSD .block{
+	text-align: left;
+	top: 40%;
+}
+main .powerfullPSD .block2{
+	text-align: right;
+	top: 70%;
+}
+main .powerfullPSD .block h3,
+main .powerfullPSD .block2 h3{
+	margin-bottom: 10px;
+}
+main .powerfullPSD .block .line,
+main .powerfullPSD .block2 .line{
+	height: 2px;
+	background-color: #5584ff;
+	margin-bottom: 10px;
+	position: relative;
+}
+main .powerfullPSD .block .line{
+	width: 46%;
+}
+main .powerfullPSD .block2 .line{
+	margin-left: auto;
+	width: 46%;
+}
+main .powerfullPSD .block .line .circle,
+main .powerfullPSD .block2 .line .circle{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(50%, -50%);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(85, 132, 255, 1) 0 45%, rgba(85, 132, 255, .5) 45% 100%);
+}
+main .powerfullPSD .block2 .line .circle{
+	left: 0;
+	transform: translate(-50%, -50%);
+}
+main .powerfullPSD .block p,
+main .powerfullPSD .block2 p{
+	max-width: 15%;
+	line-height: 1.5;
+}
+main .powerfullPSD .block2 p{
+	margin-left: auto;
+}
+main .checkOur{
+	margin-bottom: 100px;
+}
+main .checkOur h1{
+	text-align: center;
+	color: #000;
+	margin-bottom: 100px;
+}
+main .checkOur .container .blocks{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 150px;
+	margin-bottom: 100px;
+}
+main .checkOur .container .block{
+	padding: 40px 50px 30px 50px;
+	box-shadow: 0 0 25px 20px rgba(0, 0, 0, .05);
+}
+main .checkOur .container .block h3{
+	text-align: center;
+	margin-bottom: 50px;
+}
+main .checkOur .container .block .textPrice{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+main .checkOur .container .textPrice p.left,
+main .checkOur .container .textPrice p.middle{
+	font-weight: 700;
+}
+main .checkOur .container .textPrice p.left{
+	font-size: 40px;
+}
+main .checkOur .container .textPrice p.middle{
+	font-size: 72px;
+	line-height: .8;
+}
+main .checkOur .container .textPrice p.right{
+	font-weight: 400;
+	font-size: 24px;
+	color: rgba(0, 0, 0, .5);
+}
+main .checkOur .container .block ul li{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+main .checkOur .container .block ul li:last-child{
+	margin-bottom: 0;
+}
+main .checkOur .container .block ul li img{
+	margin-right: 10px;
+}
+main .checkOur .container .block ul li p{
+	color: rgba(0, 0, 0, .5);
+}
+main .checkOur .container p.text4{
+	max-width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.5;
+	margin-bottom: 50px;
+	color: rgba(0, 0, 0, .5);
+}
+main .checkOur .container .blockBottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 50%;
+	margin: 0 auto;
+}
+main .checkOur .container .blockBottom a{
+	text-decoration: none;
+	background-color: #5584ff;
+	color: #fff;
+	transition: .25s;
+}
+main .checkOur .container .blockBottom a:hover{
+	color: #5584ff;
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: 0 0 50px -5px #5584ff;
+}
+main .checkOur .container .blockBottom hr{
+	border: 0;
+	height: 2px;
+	width: 35%;
+	background-color: rgba(0, 0, 0, .1);
+}
+footer{
+	background-color: #0e1a35;
+}
+footer .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 100px;
+	box-sizing: border-box;
+}
+footer .right{
+	display: flex;
+}
+footer .right ul,
+footer .right .icons{
+	display: flex;
+}
+footer .right ul li{
+	margin-right: 50px;
+}
+footer .right ul li a{
+	text-decoration: none;
+}
+footer .right ul li a:hover{
+	text-decoration: underline;
+}
+footer .right .icons a{
+	margin-right: 25px;
+}
+footer .right .icons a:last-child{
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
